@@ -1,3 +1,29 @@
+* {
+  border: 1px solid black;
+}
+
 body {
+  margin: 0;
   background: blanchedalmond;
+  color: black;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 1%;
+  background-color: lightgrey;
+}
+
+header, footer {
+  flex-grow: 1;
+  margin: 1%;
+}
+
+main {
+  min-height: 60vh;
+  margin: 1%;
+  flex-grow: 5;
 }
