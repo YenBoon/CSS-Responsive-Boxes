@@ -12,7 +12,7 @@ body {
 .container {
   display: flex;
   min-height: 100vh;
-  flex-direction: column;
+  flex-direction: row;
   margin: 1%;
   background-color: lightgrey;
 }
@@ -26,4 +26,16 @@ main {
   min-height: 60vh;
   margin: 1%;
   flex-grow: 5;
+}
+
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    width: 100%;
+  }
+
 }
